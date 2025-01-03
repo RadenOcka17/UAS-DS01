@@ -12,7 +12,8 @@ Original file is located at
 import pandas as pd
 import numpy as np
 
-water_data = pd.read_csv('water_potability.csv')
+file_path = "/content/water_potability.csv"
+water_data = pd.read_csv(file_path)
 
 water_data.head()
 

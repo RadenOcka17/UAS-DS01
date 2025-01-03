@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 
 file_path = "/content/water_potability.csv"
-water_data = pd.read_csv(file_path)
+water_data = pd.read_csv('water_potability.csv')
 
 water_data.head()
 
